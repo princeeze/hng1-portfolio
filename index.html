@@ -21,61 +21,102 @@
         ><img src="/assets/moneys.svg" alt="Web Logo"
       /></a>
     </nav>
-    <header>
-      <div class="profile">
-        <div class="profile-picture">
-          <img
-            src="/assets/profile.png"
-            alt="Profile Picture"
-            data-testid="slackProfilePicture"
-          />
-        </div>
-        <div class="profile-name">
-          <span class="name-intro">Hi 👋, I’m</span>
-          <h1 class="name" data-testid="slackDisplayName">princeee</h1>
-        </div>
-      </div>
-      <div class="links-c">
-        <a
-          href="https://hng.tech/learn"
-          data-testid="hngLink"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><span>HNG Tech</span><img src="/assets/link.svg" alt="Link Icon"
-        /></a>
-        <a
-          href="https://keyword.dog"
-          data-testid="keywordLink"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><span>Keyword Dog</span> <img src="/assets/link.svg" alt="Link Icon"
-        /></a>
-        <a
-          href="https://scrapeanyweb.site"
-          data-testid="scrapeanywebLink"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><span>Scrape Any Web</span>
-          <img src="/assets/link.svg" alt="Link Icon"
-        /></a>
-        <a
-          href="mailto:pchidireeze@gmail.com"
-          data-testid="slackEmail"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><span>pchidireeze@gmail.com</span>
-          <img src="/assets/link.svg" alt="Link Icon"
-        /></a>
-      </div>
-    </header>
     <main>
-      <div>
-        <h2>My Tech Goals for the next two years</h2>
-        <p>
-          <span id="day" data-testid="currentDay"></span>,
-          <span id="time" data-testid="currentTimeUTC"></span>
-        </p>
-      </div>
+      <header class="heading">
+        <div class="profile">
+          <div class="profile-picture">
+            <img
+              src="/assets/profile.png"
+              alt="Profile Picture"
+              data-testid="slackProfilePicture"
+            />
+          </div>
+          <div class="profile-name">
+            <span class="name-intro">Hi 👋, I’m</span>
+            <h1 class="name" data-testid="slackDisplayName">princeee</h1>
+          </div>
+        </div>
+        <div class="links-c">
+          <a
+            href="https://hng.tech/learn"
+            data-testid="hngLink"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span>HNG Tech</span><img src="/assets/link.svg" alt="Link Icon"
+          /></a>
+          <a
+            href="https://keyword.dog"
+            data-testid="keywordLink"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span>Keyword Dog</span>
+            <img src="/assets/link.svg" alt="Link Icon"
+          /></a>
+          <a
+            href="https://scrapeanyweb.site"
+            data-testid="scrapeanywebLink"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span>Scrape Any Web</span>
+            <img src="/assets/link.svg" alt="Link Icon"
+          /></a>
+          <a
+            href="mailto:pchidireeze@gmail.com"
+            data-testid="slackEmail"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span>pchidireeze@gmail.com</span>
+            <img src="/assets/link.svg" alt="Link Icon"
+          /></a>
+        </div>
+      </header>
+      <section class="goals">
+        <div class="goals-header">
+          <h2>My Tech Goals for the next two years</h2>
+          <p>
+            <span id="day" data-testid="currentDay"></span>,
+            <span id="time" data-testid="currentTimeUTC"></span>
+          </p>
+        </div>
+        <div class="goal">
+          <p>2024 H2</p>
+          <h3>Front End</h3>
+          <ul>
+            <li>Complete HNG and become a finalist</li>
+            <li>
+              Master NextJS / Typescript and build websites wey go make village
+              people jealous.
+            </li>
+            <li>
+              Contribute to open-source projects on GitHub because coding na
+              hobby.
+            </li>
+          </ul>
+        </div>
+        <div class="goal">
+          <p>2025</p>
+          <h3>Back End</h3>
+          <ul>
+            <li>Learn Node, Postgres, Drizzle as per full stack.</li>
+            <li>
+              Attend tech conferences and network with industry people so I’ll
+              be known on twitter
+            </li>
+          </ul>
+        </div>
+        <div class="goal">
+          <p>2026</p>
+          <h3>Startup</h3>
+          <ul>
+            <li>Launch a tech startup</li>
+            <li>Hustle to million-dollar exit</li>
+            <li>
+              Convert to naira (1.5 billion). If anybody ask me how I dey do am,
+              Na God.
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <script src="script.js"></script>
   </body>
