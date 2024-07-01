@@ -1,5 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: 400;
 }
 
 nav {
@@ -21,23 +23,22 @@ main {
 .heading {
   display: flex;
   flex-direction: column;
-  gap: 38px;
+  gap: 3.8rem;
   position: fixed;
   width: 40%;
 }
 
 .profile {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 4.8rem;
 }
 
 .profile-picture {
   display: flex;
-  border: 1px solid #000000;
-  filter: drop-shadow(4px 4px 0px #323232);
-  border-radius: 22px;
+  border: 0.1rem solid #000000;
+  filter: drop-shadow(0.4rem 0.4rem 0rem #323232);
+  border-radius: 2.2rem;
   overflow: hidden;
   background-color: #000000;
 }
@@ -48,40 +49,30 @@ main {
 }
 
 .name-intro {
-  font-weight: 400;
   font-size: 2.2rem;
-  /* line-height: 150%; */
-  /* identical to box height, or 33px */
-  color: #000000;
 }
 
 .name {
-  font-weight: 400;
   font-size: 4.8rem;
-  /* line-height: 150%; */
-  /* identical to box height, or 72px */
-  color: #000000;
 }
 
 .links-c {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 15px;
+  gap: 1.5rem;
 }
 
 .links-c a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1px;
+  gap: 0.1rem;
   text-decoration: none;
 }
 
 .links-c span {
-  font-weight: 400;
-  font-size: 15px;
-  /* line-height: 150%; */
+  font-size: 1.5rem;
   text-decoration-line: underline;
   text-underline-offset: 0.3rem;
   text-decoration: underline dotted;
@@ -91,7 +82,6 @@ main {
 .goals-header {
   display: flex;
   justify-content: space-between;
-  font-weight: 400;
   font-size: 1.5rem;
 }
 
@@ -102,8 +92,8 @@ h2 {
 .goals {
   display: flex;
   flex-direction: column;
-  gap: 39px;
-  padding-bottom: 100px;
+  gap: 3.9rem;
+  padding-bottom: 10rem;
   width: 50%;
   padding-left: 50%;
 }
@@ -111,38 +101,26 @@ h2 {
 .goal {
   display: flex;
   flex-direction: column;
-
-  padding: 24px;
+  padding: 2.4rem;
   gap: 1.2rem;
-
-  /* width: 521px; */
-
-  border: 1px solid #323232;
-  box-shadow: 4px 4px 0px #323232;
-  border-radius: 20px;
+  border: 0.1rem solid #323232;
+  box-shadow: 0.4rem 0.4rem 0rem #323232;
+  border-radius: 2rem;
+  color: #111111;
 }
 
 .goal p {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 150%;
-  color: #111111;
+  font-size: 1.2rem;
 }
 
 .goal h3 {
-  font-weight: 400;
-  font-size: 20px;
-  color: #111111;
+  font-size: 2rem;
 }
 
 .goal ul {
-  /* list-style-position: inside; */
   list-style-type: disc;
   margin-left: 1.5rem;
-  font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 150%;
-  /* or 21px */
-
   color: #7f7f7f;
 }
