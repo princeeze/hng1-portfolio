@@ -22,62 +22,61 @@
       /></a>
     </nav>
     <header>
-      <div>
-        <div>
+      <div class="profile">
+        <div class="profile-picture">
           <img
             src="/assets/profile.png"
             alt="Profile Picture"
             data-testid="slackProfilePicture"
           />
         </div>
-        <div>
-          <span>Hi 👋, I’m</span>
-          <span data-testid="slackDisplayName">princeee</span>
+        <div class="profile-name">
+          <span class="name-intro">Hi 👋, I’m</span>
+          <h1 class="name" data-testid="slackDisplayName">princeee</h1>
         </div>
       </div>
-      <div>
-        <div>
-          <a
-            href="https://hng.tech/learn"
-            data-testid="hngLink"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><span>HNG Tech</span><img src="/assets/link.svg" alt="Link Icon"
-          /></a>
-        </div>
-        <div>
-          <a
-            href="https://keyword.dog"
-            data-testid="keywordLink"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><span>Keyword Dog</span>
-            <img src="/assets/link.svg" alt="Link Icon"
-          /></a>
-        </div>
-        <div>
-          <a
-            href="https://scrapeanyweb.site"
-            data-testid="scrapeanywebLink"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><span>Scrape Any Web</span>
-            <img src="/assets/link.svg" alt="Link Icon"
-          /></a>
-        </div>
-        <div>
-          <a
-            href="mailto:pchidireeze@gmail.com"
-            data-testid="slackEmail"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><span>pchidireeze@gmail.com</span>
-            <img src="/assets/link.svg" alt="Link Icon"
-          /></a>
-        </div>
+      <div class="links-c">
+        <a
+          href="https://hng.tech/learn"
+          data-testid="hngLink"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>HNG Tech</span><img src="/assets/link.svg" alt="Link Icon"
+        /></a>
+        <a
+          href="https://keyword.dog"
+          data-testid="keywordLink"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>Keyword Dog</span> <img src="/assets/link.svg" alt="Link Icon"
+        /></a>
+        <a
+          href="https://scrapeanyweb.site"
+          data-testid="scrapeanywebLink"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>Scrape Any Web</span>
+          <img src="/assets/link.svg" alt="Link Icon"
+        /></a>
+        <a
+          href="mailto:pchidireeze@gmail.com"
+          data-testid="slackEmail"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span>pchidireeze@gmail.com</span>
+          <img src="/assets/link.svg" alt="Link Icon"
+        /></a>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div>
+        <h2>My Tech Goals for the next two years</h2>
+        <p>
+          <span id="day" data-testid="currentDay"></span>,
+          <span id="time" data-testid="currentTimeUTC"></span>
+        </p>
+      </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
