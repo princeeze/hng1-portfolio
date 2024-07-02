@@ -8,7 +8,7 @@ This website includes:
 
 - My Slack display name and profile picture
 - My tech goals for the next 2 years
-- Contact information (Slack email)
+- Slack Email
 - Current time in UTC and the current day of the week
 - Links to external resources
 
